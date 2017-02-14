@@ -24,8 +24,7 @@ public extension StravaResult {
         return Strava.openURL(aURL, sourceApplication: sourceApplication)
     }
 
-    public static func deauthorize(
-        _ resultHandler: ((_ result: Result<Bool, StravaResultError>?) -> ())?) -> URLSessionTask? {
+    public static func deauthorize(_ resultHandler: ((_ result: Result<Bool, StravaResultError>?) -> ())?) -> URLSessionTask? {
         Strava.deauthorize { (success, error) in
             if let error = error {
                 resultHandler?(.failure(.requestError(error)))
