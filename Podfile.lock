@@ -1,15 +1,25 @@
 PODS:
-  - Result (3.0.0)
-  - StravaKit (0.9.2)
+  - Result (3.1.0)
+  - StravaKit (0.9.4)
 
 DEPENDENCIES:
   - Result (~> 3.0)
-  - StravaKit (~> 0.9)
+  - StravaKit (from `https://github.com/StravaKit/StravaKit.git`, branch `result-support`)
+
+EXTERNAL SOURCES:
+  StravaKit:
+    :branch: result-support
+    :git: https://github.com/StravaKit/StravaKit.git
+
+CHECKOUT OPTIONS:
+  StravaKit:
+    :commit: a0539f000febdb183d540a1a215058c2bf4d4b7b
+    :git: https://github.com/StravaKit/StravaKit.git
 
 SPEC CHECKSUMS:
-  Result: 1b3e431f37cbcd3ad89c6aa9ab0ae55515fae3b6
-  StravaKit: b83b5bcfac62bc6c819cbf588e430c278d201111
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  StravaKit: fd1cd2f13f5d95bba399da9697ace72bd2b20da7
 
-PODFILE CHECKSUM: 3a851e91ff58e8c5cb44b055972f274ac00b556c
+PODFILE CHECKSUM: 1d9d099bc27fdb5874b4542e9dddeaa7a8da5ee1
 
 COCOAPODS: 1.2.0

@@ -24,17 +24,12 @@ public extension StravaResult {
         return Strava.openURL(aURL, sourceApplication: sourceApplication)
     }
 
-    public static func deauthorize(_ resultHandler: ((_ result: Result<Bool, StravaResultError>?) -> ())?) -> URLSessionTask? {
-        Strava.deauthorize { (success, error) in
-            if let error = error {
-                resultHandler?(.failure(.requestError(error)))
-            }
-            else {
-                resultHandler?(.success(success))
-            }
+    @discardableResult
+    public static func deauthorize(resultHandler: ResultClosure<Bool?, StravaResultError>?) -> URLSessionTask? {
+        return Strava.deauthorize {
+            (success, error) in
+            handleResult(item: success, error: error, resultHandler: resultHandler)
         }
-
-        return nil
     }
 
 }

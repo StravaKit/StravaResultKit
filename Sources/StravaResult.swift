@@ -10,20 +10,27 @@ import Foundation
 import Result
 import StravaKit
 
+public typealias ResultClosure<T, Error: Swift.Error> = (_ result: Result<T, Error>) -> ()
+
 public enum StravaResultError: Error {
     case requestError(NSError)
-}
-
-public extension Strava {
-
-    var result: StravaResult {
-        return StravaResult.sharedInstance
-    }
-
 }
 
 open class StravaResult: NSObject {
 
     public static let sharedInstance = StravaResult()
+
+    internal static func handleResult<T>(item: T?, error: NSError?, resultHandler: ResultClosure<T?, StravaResultError>?) {
+        if Strava.isDebugging {
+            debugPrint("item: \(item)")
+            debugPrint("error: \(error)")
+        }
+        if let error = error {
+            resultHandler?(.failure(.requestError(error)))
+        }
+        else {
+            resultHandler?(.success(item))
+        }
+    }
 
 }

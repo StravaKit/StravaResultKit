@@ -21,6 +21,12 @@
 		264808271E52AFEF00F01140 /* StravaResultKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 264808111E52AFEF00F01140 /* StravaResultKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		264808331E5369CD00F01140 /* StravaResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264808321E5369CD00F01140 /* StravaResult.swift */; };
 		264808381E53AFE900F01140 /* StravaOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264808371E53AFE900F01140 /* StravaOAuth.swift */; };
+		26D459A31E553A5700A81E1B /* StravaActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4599D1E553A5700A81E1B /* StravaActivity.swift */; };
+		26D459A41E553A5700A81E1B /* StravaAthlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4599E1E553A5700A81E1B /* StravaAthlete.swift */; };
+		26D459A51E553A5700A81E1B /* StravaClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4599F1E553A5700A81E1B /* StravaClub.swift */; };
+		26D459A61E553A5700A81E1B /* StravaRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D459A01E553A5700A81E1B /* StravaRoute.swift */; };
+		26D459A71E553A5700A81E1B /* StravaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D459A11E553A5700A81E1B /* StravaSegment.swift */; };
+		26D459A81E553A5700A81E1B /* StravaUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D459A21E553A5700A81E1B /* StravaUpload.swift */; };
 		82101A2CD8FBC403E2F42319 /* Pods_StravaResultKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3016B8C67FAACD025D578E02 /* Pods_StravaResultKit.framework */; };
 		B116D70DF4588375B1B1F6D8 /* Pods_StravaResultKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3448CAADB4CFD7E071797EB /* Pods_StravaResultKitTests.framework */; };
 		D6CCF422529C260829EF174A /* Pods_StravaResultKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E130933504FE9761FE01204 /* Pods_StravaResultKitDemo.framework */; };
@@ -92,6 +98,13 @@
 		264808221E52AFEF00F01140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		264808321E5369CD00F01140 /* StravaResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaResult.swift; path = Sources/StravaResult.swift; sourceTree = SOURCE_ROOT; };
 		264808371E53AFE900F01140 /* StravaOAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaOAuth.swift; path = Sources/StravaOAuth.swift; sourceTree = SOURCE_ROOT; };
+		26D35EB51E5821FE003D01F7 /* StravaResultKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StravaResultKit.playground; sourceTree = "<group>"; };
+		26D4599D1E553A5700A81E1B /* StravaActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaActivity.swift; path = Sources/StravaActivity.swift; sourceTree = SOURCE_ROOT; };
+		26D4599E1E553A5700A81E1B /* StravaAthlete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaAthlete.swift; path = Sources/StravaAthlete.swift; sourceTree = SOURCE_ROOT; };
+		26D4599F1E553A5700A81E1B /* StravaClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaClub.swift; path = Sources/StravaClub.swift; sourceTree = SOURCE_ROOT; };
+		26D459A01E553A5700A81E1B /* StravaRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaRoute.swift; path = Sources/StravaRoute.swift; sourceTree = SOURCE_ROOT; };
+		26D459A11E553A5700A81E1B /* StravaSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaSegment.swift; path = Sources/StravaSegment.swift; sourceTree = SOURCE_ROOT; };
+		26D459A21E553A5700A81E1B /* StravaUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StravaUpload.swift; path = Sources/StravaUpload.swift; sourceTree = SOURCE_ROOT; };
 		29A9EF1EB39E118E2BE02F90 /* Pods-StravaResultKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StravaResultKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StravaResultKit/Pods-StravaResultKit.debug.xcconfig"; sourceTree = "<group>"; };
 		2C0F1339520E14140E7C3AA8 /* Pods_StravaResultKitDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StravaResultKitDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3016B8C67FAACD025D578E02 /* Pods_StravaResultKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StravaResultKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,9 +158,10 @@
 		264807E01E52ADF900F01140 = {
 			isa = PBXGroup;
 			children = (
+				26D35EB51E5821FE003D01F7 /* StravaResultKit.playground */,
 				264807EB1E52ADF900F01140 /* StravaResultKitDemo */,
-				264808001E52ADF900F01140 /* StravaResultKitDemoTests */,
 				264808121E52AFEF00F01140 /* StravaResultKit */,
+				264808001E52ADF900F01140 /* StravaResultKitDemoTests */,
 				2648081F1E52AFEF00F01140 /* StravaResultKitTests */,
 				264807EA1E52ADF900F01140 /* Products */,
 				B8E746E336C861B77AFF2827 /* Pods */,
@@ -212,6 +226,12 @@
 			isa = PBXGroup;
 			children = (
 				264808371E53AFE900F01140 /* StravaOAuth.swift */,
+				26D4599D1E553A5700A81E1B /* StravaActivity.swift */,
+				26D4599E1E553A5700A81E1B /* StravaAthlete.swift */,
+				26D4599F1E553A5700A81E1B /* StravaClub.swift */,
+				26D459A01E553A5700A81E1B /* StravaRoute.swift */,
+				26D459A11E553A5700A81E1B /* StravaSegment.swift */,
+				26D459A21E553A5700A81E1B /* StravaUpload.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -636,7 +656,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D459A51E553A5700A81E1B /* StravaClub.swift in Sources */,
+				26D459A71E553A5700A81E1B /* StravaSegment.swift in Sources */,
 				264808381E53AFE900F01140 /* StravaOAuth.swift in Sources */,
+				26D459A81E553A5700A81E1B /* StravaUpload.swift in Sources */,
+				26D459A31E553A5700A81E1B /* StravaActivity.swift in Sources */,
+				26D459A41E553A5700A81E1B /* StravaAthlete.swift in Sources */,
+				26D459A61E553A5700A81E1B /* StravaRoute.swift in Sources */,
 				264808331E5369CD00F01140 /* StravaResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -791,7 +817,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 032765E9B52F3740F8522DD4 /* Pods-StravaResultKitDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3FCT79SM9;
 				INFOPLIST_FILE = StravaResultKitDemo/Info.plist;
@@ -806,7 +831,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADE562424416B991EA7DF150 /* Pods-StravaResultKitDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3FCT79SM9;
 				INFOPLIST_FILE = StravaResultKitDemo/Info.plist;
@@ -900,7 +924,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBEFB13FA294DB68C341BF5D /* Pods-StravaResultKitTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JJUWC4MH8Y;
 				INFOPLIST_FILE = StravaResultKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -915,7 +938,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 223DC84BE0A64EEBDD82CE26 /* Pods-StravaResultKitTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JJUWC4MH8Y;
 				INFOPLIST_FILE = StravaResultKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
