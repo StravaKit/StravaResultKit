@@ -1,0 +1,3 @@
+
+github "StravaKit/StravaKit" ~> 0.9
+#github "StravaKit/StravaKit" "branch-name"
