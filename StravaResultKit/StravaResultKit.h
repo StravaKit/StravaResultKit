@@ -6,7 +6,7 @@
 //  Copyright © 2017 SmallSharpTools LLC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for StravaResultKit.
 FOUNDATION_EXPORT double StravaResultKitVersionNumber;
@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double StravaResultKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char StravaResultKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <StravaResultKit/PublicHeader.h>
-
-

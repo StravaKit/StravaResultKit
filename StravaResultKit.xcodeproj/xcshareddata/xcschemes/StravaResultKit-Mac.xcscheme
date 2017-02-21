@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "264808101E52AFEF00F01140"
+               BlueprintIdentifier = "26D35EBD1E5C1DA0003D01F7"
                BuildableName = "StravaResultKit.framework"
-               BlueprintName = "StravaResultKit"
-               ReferencedContainer = "container:StravaResultKitDemo.xcodeproj">
+               BlueprintName = "StravaResultKit-Mac"
+               ReferencedContainer = "container:StravaResultKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "26D35EC51E5C1DA1003D01F7"
+               BuildableName = "StravaResultKitTests-Mac.xctest"
+               BlueprintName = "StravaResultKitTests-Mac"
+               ReferencedContainer = "container:StravaResultKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "26D35EBD1E5C1DA0003D01F7"
+            BuildableName = "StravaResultKit.framework"
+            BlueprintName = "StravaResultKit-Mac"
+            ReferencedContainer = "container:StravaResultKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,19 +64,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "264808101E52AFEF00F01140"
+            BlueprintIdentifier = "26D35EBD1E5C1DA0003D01F7"
             BuildableName = "StravaResultKit.framework"
-            BlueprintName = "StravaResultKit"
-            ReferencedContainer = "container:StravaResultKitDemo.xcodeproj">
+            BlueprintName = "StravaResultKit-Mac"
+            ReferencedContainer = "container:StravaResultKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "StravaAccessToken"
-            value = "HELLO2017"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "264808101E52AFEF00F01140"
+            BlueprintIdentifier = "26D35EBD1E5C1DA0003D01F7"
             BuildableName = "StravaResultKit.framework"
-            BlueprintName = "StravaResultKit"
-            ReferencedContainer = "container:StravaResultKitDemo.xcodeproj">
+            BlueprintName = "StravaResultKit-Mac"
+            ReferencedContainer = "container:StravaResultKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

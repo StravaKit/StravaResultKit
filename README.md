@@ -14,17 +14,17 @@ See [Change Log] and [To Do List] for completed features and future plans.
 [StravaResultKit] is available through [CocoaPods]. To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'StravaResultKit', '~> 0.1'
+pod 'StravaResultKit', '~> 0.0'
 ```
 
 ## Carthage
 
-StravaKit can also be built using [Carthage]. 
+StravaResultKit can also be built using [Carthage]. 
 
 Add the following line to your Cartfile:
 
 ```sh
-github "StravaKit/StravaResultKit" ~> 0.1
+github "StravaKit/StravaResultKit" ~> 0.0
 ```
 
 ## Contributions
@@ -38,7 +38,8 @@ If there is a feature that you feel is important and would like it implemented s
 
 ## Purpose and Goals
 
-...
+[StravaKit] is a client for the Strava API and [StravaResultKit] is an [Result] type implementation
+which is built on top of StravaKit. It was made to allow for using the popular Result pattern
 
 ## Architecture
 
@@ -60,8 +61,10 @@ Brennan Stehling - 2016-2017
 
 [Change Log]: https://github.com/StravaKit/StravaResultKit/blob/master/CHANGELOG.md
 [To Do List]: https://github.com/StravaKit/StravaResultKit/blob/master/TODO.md
-[GitHub Issues]: https://github.com/StravaKit/StravaKit/issues
+[GitHub Issues]: https://github.com/StravaKit/StravaResultKit/issues
+[StravaKit]: https://github.com/StravaKit/StravaKit
 [StravaResultKit]: https://github.com/StravaKit/StravaResultKit
+[Result]: https://github.com/antitypical/Result
 [CocoaPods]: http://cocoapods.org
 [Carthage]: https://github.com/carthage/carthage
 [Semantic Versioning]: http://semver.org

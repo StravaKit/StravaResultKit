@@ -13,7 +13,7 @@ import StravaKit
 public extension StravaResult {
 
     @discardableResult
-    public static func getActivities(_ page: Page? = nil, resultHandler: ResultClosure<[Activity]?, StravaResultError>?) -> URLSessionTask? {
+    public static func getActivities(_ page: Page? = nil, resultHandler: ResultClosure<[Activity], StravaResultError>?) -> URLSessionTask? {
         return Strava.getActivities {
             (activities, error) in
             handleResult(item: activities, error: error, resultHandler: resultHandler)
@@ -21,7 +21,7 @@ public extension StravaResult {
     }
 
     @discardableResult
-    public static func getActivity(_ activityId: Int, resultHandler: ResultClosure<Activity?, StravaResultError>?) -> URLSessionTask? {
+    public static func getActivity(_ activityId: Int, resultHandler: ResultClosure<Activity, StravaResultError>?) -> URLSessionTask? {
         return Strava.getActivity(activityId) {
             (activity, error) in
             handleResult(item: activity, error: error, resultHandler: resultHandler)
@@ -29,7 +29,7 @@ public extension StravaResult {
     }
 
     @discardableResult
-    public static func getFollowingActivities(_ page: Page? = nil, resultHandler: ResultClosure<[Activity]?, StravaResultError>?) -> URLSessionTask? {
+    public static func getFollowingActivities(_ page: Page? = nil, resultHandler: ResultClosure<[Activity], StravaResultError>?) -> URLSessionTask? {
         return Strava.getFollowingActivities { (activities, error) in
             handleResult(item: activities, error: error, resultHandler: resultHandler)
         }

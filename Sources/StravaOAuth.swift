@@ -25,7 +25,7 @@ public extension StravaResult {
     }
 
     @discardableResult
-    public static func deauthorize(resultHandler: ResultClosure<Bool?, StravaResultError>?) -> URLSessionTask? {
+    public static func deauthorize(resultHandler: ResultClosure<Bool, StravaResultError>?) -> URLSessionTask? {
         return Strava.deauthorize {
             (success, error) in
             handleResult(item: success, error: error, resultHandler: resultHandler)
