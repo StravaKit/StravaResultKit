@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.11'
   s.frameworks = 'Foundation', 'CoreLocation', 'Security'
   s.dependency 'StravaKit', '~> 0.9'
+  s.dependency 'Result', '~> 3.1'
 end
