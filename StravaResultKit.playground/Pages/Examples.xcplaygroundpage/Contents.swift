@@ -8,8 +8,7 @@ import StravaResultKit
 
 // Configuration
 
-//let accessToken = "INSERT_ACCESS_TOKEN_HERE"
-let accessToken = "2f18b16d39ad278624844a30a034409601898947"
+let accessToken = "INSERT_ACCESS_TOKEN_HERE"
 Strava.configure(accessToken: accessToken, athleteDictionary: nil, alternateRequestor: nil)
 
 // Activity
@@ -280,7 +279,7 @@ StravaResult.deauthorize { (result) in
         break
     }
 }
-*/
+ */
 
 // Playground Configuration
 import PlaygroundSupport
